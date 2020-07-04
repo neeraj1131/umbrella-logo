@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab|Work+Sans&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <title>Customize Umbrella</title>
+    </head>
+    <body>
+        <main class="wrapper">
+            <div class="container-fluid inside">
+                <div class="row ">
+                    <div class="col-lg-7">
+                        <div class="umbrella">
+                            <img src="assets/loader_icon.svg" alt="spinner" class="img-fluid spinner umbrella--spinner">
+                            <div class="">
+                                <img src="" alt="" class="img-fluid umbrella--image">
+                                <img src="" alt="" class="img-fluid umbrella--logoimage">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-5">
+                        <div class="heading">
+                            <p class="heading__secondary">Custom Umbrella<p/>
+                            <div class="radio-group">
+                                <input type="radio" name="color" id="black" value="0" />
+                                <label for="black"><span class="black"></span></label>
+
+                                <input type="radio" name="color" id="grey" value="1"/>
+                                <label for="grey"><span class="grey"></span></label>
+
+                                <input type="radio" name="color" id="darkblue" value="2"/>
+                                <label for="darkblue"><span class="darkblue"></span></label>
+
+                                <input type="radio" name="color" id="pink" value="3"/>
+                                <label for="pink"><span class="pink"></span></label>
+
+                                <input type="radio" name="color" id="blue" value="4" checked="checked"/>
+                                <label for="blue"><span class="blue"></span></label>
+
+                                <input type="radio" name="color" id="yellow" value="5"/>
+                                <label for="yellow"><span class="yellow"></span></label>
+
+                                <input type="radio" name="color" id="orange" value="6"/>
+                                <label for="orange"><span class="orange"></span></label>
+
+                                <input type="radio" name="color" id="red" value="7"/>
+                                <label for="red"><span class="red"></span></label>
+
+                            </div>
+                            <p class="heading__primary heading__primary--bold">Customize your umbrella</p>
+                            <p class="heading__primary heading__primary--plain">Upload a logo for instant preview</p>
+                            <p class="heading__small">.png and .jpg files only. Max file size is 5MB.</p>
+                            <div class="upload-button">
+                                <input type="file" accept="image/*" class="uploadlogo" />
+                                <span class="upload__text">upload logo</span>
+                                <img src="assets/upload_icon.svg" alt="" class="img-fluid upload-button__icon upload">
+                                <img src="assets/loader_icon.svg" alt="" class="img-fluid upload-button__icon upload-button--spinner spinner">
+                                <button type="button" class="upload-button__remove-image"></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    
+    </body>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script src="js/index.js"></script>
+</html>

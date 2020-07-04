@@ -1,0 +1,20 @@
+{
+  "name": "assignment-starapps-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch:sass": "node-sass sass/main.scss css/style.css -w",
+    "compress:css": "node-sass css/style.prefix.css css/style.min.css",
+    "devserver": "live-server"
+  },
+  "author": "Neeraj Singh",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.14.1"
+  },
+  "dependencies": {
+    "jquery": "^3.5.1",
+    "live-server": "^1.2.1"
+  }
+}
